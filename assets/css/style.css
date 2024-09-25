@@ -338,4 +338,34 @@ template {
 [hidden] {
   display: none; }
 
+footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
+.footer-container {
+  width: 80%;
+  margin: 0 auto; }
+  .footer-container p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px; }
+  .footer-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+    .footer-container ul li {
+      margin-right: 20px; }
+    .footer-container ul a {
+      text-decoration: none;
+      color: #337ab7; }
+      .footer-container ul a:hover {
+        color: #23527c; }
+
 /*# sourceMappingURL=style.css.map */
