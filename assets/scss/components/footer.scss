@@ -1,0 +1,41 @@
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-container {
+    width: 80%;
+    margin: 0 auto;
+    
+    p {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+    
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      
+      li {
+        margin-right: 20px;
+      }
+      
+      a {
+        text-decoration: none;
+        color: #337ab7;
+        
+        &:hover {
+          color: #23527c;
+        }
+      }
+    }
+  }
