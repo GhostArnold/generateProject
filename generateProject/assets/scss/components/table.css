@@ -1,71 +1,99 @@
-.application-areas {
+.main-text {
+  position: relative;
+  margin-bottom: 40px;
+}
+.main-text .description-img .main-generator {
+  position: absolute;
+  top: 630px;
+  right: 280px;
+  margin: 20px;
+}
+.main-text .description-img .two-generators {
+  position: absolute;
+  top: 1332px;
+  right: 200px;
+  margin: 20px;
+  padding-top: 30px;
+}
+.main-text .description-img .back-generator {
+  position: absolute;
+  top: 15px;
+  right: 200px;
+  margin: 20px;
+  width: 500px;
+}
+.main-text .application-areas {
   max-width: 800px;
-  margin: 40px auto;
+  margin: 20px 0 70px 20px;
   padding: 20px;
+  border-radius: 16px;
   background-color: #f9f9f9;
   border: 1px solid #ddd;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.application-areas h2 {
+.main-text .application-areas h2 {
   font-size: 24px;
   margin-bottom: 20px;
 }
-.application-areas .description-block-app {
+.main-text .application-areas .description-block-app {
   margin-bottom: 40px;
 }
-.application-areas .description-block-app h2 {
+.main-text .application-areas .description-block-app h2 {
   font-size: 18px;
   margin-bottom: 10px;
 }
-.application-areas .description-block-app ul {
+.main-text .application-areas .description-block-app ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-.application-areas .description-block-app ul li {
+.main-text .application-areas .description-block-app ul li {
   margin-bottom: 20px;
 }
-.application-areas .description-block-app ul li .description-label {
+.main-text .application-areas .description-block-app ul li .description-label {
   font-weight: bold;
   margin-right: 10px;
 }
-.application-areas .description-block-app ul li .description-text {
+.main-text .application-areas .description-block-app ul li .description-text {
   font-size: 16px;
   color: #666;
 }
-
-.generator-description {
+.main-text .generator-description {
   max-width: 800px;
-  margin: 40px auto;
+  margin: 20px 0 20px 20px;
   padding: 20px;
+  border-radius: 16px;
   background-color: #f9f9f9;
   border: 1px solid #ddd;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.generator-description h2 {
+.main-text .generator-description h2 {
   font-size: 24px;
   margin-bottom: 20px;
 }
-.generator-description .description-block {
+.main-text .generator-description .description-block {
   margin-bottom: 40px;
 }
-.generator-description .description-block h3 {
+.main-text .generator-description .description-block h3 {
   font-size: 18px;
   margin-bottom: 10px;
 }
-.generator-description .description-block ul {
+.main-text .generator-description .description-block ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-.generator-description .description-block ul li {
+.main-text .generator-description .description-block ul li {
   margin-bottom: 20px;
 }
-.generator-description .description-block ul li .description-label {
+.main-text .generator-description .description-block ul li .description-label {
   font-weight: bold;
   margin-right: 10px;
 }
-.generator-description .description-block ul li .description-text {
+.main-text .generator-description .description-block ul li .description-text {
   font-size: 16px;
   color: #666;
 }/*# sourceMappingURL=table.css.map */

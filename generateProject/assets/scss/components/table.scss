@@ -1,7 +1,32 @@
-.application-areas {
+.main-text{
+    position:relative;
+    margin-bottom: 40px;
+
+    .description-img{
+        .main-generator{
+            position:absolute; top:630px; right:280px;
+            margin: 20px;
+        }
+        
+        .two-generators{
+            position:absolute; top:1332px; right:200px;
+            margin: 20px;
+            padding-top:30px ;
+        }
+        .back-generator{
+            position: absolute; top: 15px; right: 200px;
+            margin: 20px;
+            width: 500px;
+        }
+
+    }
+    
+    .application-areas {
+        
     max-width: 800px;
-    margin: 40px auto;
+    margin: 20px 0 70px 20px;
     padding: 20px;
+    border-radius: 16px;
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -42,11 +67,15 @@
 
   .generator-description {
     max-width: 800px;
-    margin: 40px auto;
+    margin: 20px 0 20px 20px;
     padding: 20px;
+    border-radius: 16px;
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   
     h2 {
       font-size: 24px;
@@ -82,3 +111,5 @@
       }
     }
   }
+
+}
