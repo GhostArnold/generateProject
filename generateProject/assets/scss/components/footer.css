@@ -1,0 +1,80 @@
+footer {
+  background-color: rgb(47, 57, 245);
+  padding: 20px;
+  text-align: center;
+  clear: both;
+  position: relative; /* changed from absolute to relative */
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+.footer-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.footer-container p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+.footer-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.footer-container ul li {
+  margin-right: 20px;
+}
+.footer-container ul li :last-child {
+  margin-right: 0;
+}
+.footer-container ul a {
+  text-decoration: none;
+  color: #e6e60f;
+  transition: 0.3s;
+}
+.footer-container ul a:hover {
+  color: #f5f500;
+}
+.footer-container input {
+  margin-top: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 200px;
+  border: 1px solid #e6e60f;
+  border-radius: 12px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5;
+  transition: border-color 0.3s ease;
+}
+.footer-container button {
+  padding: 10px 20px;
+  background-color: #d5d513;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.footer-container button:hover {
+  background-color: #e6e60f;
+}
+.footer-container textarea {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-sizing: border-box;
+  font-size: 25px;
+  line-height: 1.5;
+  transition: border-color 0.3s ease;
+}
+.footer-container label {
+  display: block;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=footer.css.map */
